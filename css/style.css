@@ -27,6 +27,7 @@ header {
 }
 
 .wrapper {
+    background-color: #FFF;
     width: 100%;
     margin: 0 auto;
     position: fixed;
@@ -139,8 +140,8 @@ section {
 
 .cat-dogs {
     z-index: -2;
-    width: 652px;
-    height: 617px;
+    width: 770px;
+    height: 770px;
     background-image: url(../img/Pets.svg);
     background-size: contain;
     background-repeat: no-repeat;
