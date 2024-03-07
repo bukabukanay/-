@@ -86,9 +86,14 @@ header {
     display: none;
 }
 
+section {
+    height: 100vh;
+}
+
 .main-container {
+    margin: 171px 0px 0px 39px;
     width: 477px;
-    height: 327;
+    height: 327px;
 }
 
 .main-container > p {
