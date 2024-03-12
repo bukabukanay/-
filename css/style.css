@@ -124,7 +124,7 @@ section {
     margin: 171px 0px 0px 39px;
 }
 
-.main__information > h1 {
+.main__information>h1 {
     font-size: 40px;
     font-weight: bold;
 }
@@ -181,7 +181,7 @@ section {
     padding-right: 2px;
 }
 
-.footer__text > p > span {
+.footer__text>p>span {
     font-weight: bold;
 }
 
@@ -210,6 +210,7 @@ section {
     right: 270px;
     margin-top: -90px;
 }
+
 .paw2 {
     position: absolute;
     right: 600px;
@@ -280,12 +281,12 @@ section {
     height: 100%;
 }
 
-.about-text > h2 {
+.about-text>h2 {
     font-size: 35px;
     font-weight: 500;
 }
 
-.about-text > p {
+.about-text>p {
     color: #424040;
     font-size: 18px;
     font-weight: 500;
@@ -337,7 +338,7 @@ section {
     }
 }
 
-.findme > h2 {
+.findme>h2 {
     margin: 60px 0px 0px 40px;
     font-size: 35px;
     font-weight: 500;
@@ -403,16 +404,16 @@ section {
     transform: translateY(70%);
 }
 
-.card__desc > h2 {
+.card__desc>h2 {
     font-size: 20px;
 }
 
-.card__desc > p {
+.card__desc>p {
     font-size: 16px;
     margin: 13px 0px 14px 0px;
 }
 
-.card__desc > a {
+.card__desc>a {
     color: #B27900;
 }
 
@@ -450,6 +451,7 @@ section {
     background-position: center;
 }
 
-.btn-right:hover, .btn-left:hover {
+.btn-right:hover,
+.btn-left:hover {
     background-color: #FAC451;
 }
