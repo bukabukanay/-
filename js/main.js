@@ -1,21 +1,14 @@
-const cards = document.querySelectorAll('.card');
-const btnLeft = document.querySelector('.btn-cat');
-const btnRight = document.querySelector('.btn-cat');
+var acc = document.getElementsByClassName("accordion");
+var i;
 
-let currentIndex = 0;
-
-btnRight.addEventListener('click', () => {
-  if (currentIndex < cards.length - 3) {
-    currentIndex++;
-    cards[currentIndex].classList.add('card-hidden');
-    cards[currentIndex + 3].classList.remove('card-hidden');
-  }
-});
-
-btnLeft.addEventListener('click', () => {
-  if (currentIndex > 0) {
-    cards[currentIndex + 3].classList.add('card-hidden');
-    currentIndex--;
-    cards[currentIndex].classList.remove('card-hidden');
-  }
-});
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}
