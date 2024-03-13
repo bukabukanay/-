@@ -29,3 +29,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
   /*document.querySelector('.js-tabBtn').click();*/
 })
+
+
+function navMain() {
+  alert("Временно недоступно!");
+}
