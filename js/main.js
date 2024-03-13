@@ -1,6 +1,6 @@
 const cards = document.querySelectorAll('.card');
-const btnLeft = document.querySelector('.btn-left');
-const btnRight = document.querySelector('.btn-right');
+const btnLeft = document.querySelector('.btn-cat');
+const btnRight = document.querySelector('.btn-cat');
 
 let currentIndex = 0;
 
