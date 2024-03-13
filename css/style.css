@@ -69,6 +69,7 @@ header {
     text-transform: uppercase;
     flex: none;
     order: 0;
+    transition: 0.5s ease-in-out;
     flex-grow: 0;
 }
 
@@ -92,6 +93,7 @@ header {
     display: block;
     margin-right: auto;
     margin-left: auto;
+    transition: 1s;
 }
 
 .logo:hover {
@@ -135,22 +137,23 @@ section {
     font-size: 22px;
 }
 
-.btn-yellow {
+.btn-orange {
     font-size: 20px;
     color: #FFF;
     padding: 12.5px 40.5px;
     border-radius: 24px;
     background-color: #FFB820;
     box-shadow: 3px 4px 13.7px #AD7600;
+    transition: 0.3s;
 }
 
-.btn-yellow:hover {
+.btn-orange:hover {
     background-color: #000;
     color: #FFF;
     box-shadow: none;
 }
 
-.btn-yellow:active {
+.btn-orange:active {
     background-color: #FFCE67;
     color: #000;
 }
@@ -177,13 +180,19 @@ section {
 .footer__text {
     display: inline-flex;
     align-items: center;
-    font-size: 14px;
+    font-size: 18px;
     margin-left: 40px;
     padding-right: 2px;
 }
 
 .footer__text>p>span {
     font-weight: bold;
+}
+
+.footer__text > img {
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
 }
 
 .About-content {
@@ -226,7 +235,7 @@ section {
     z-index: 999;
     margin-left: 40px;
     font-weight: bold;
-    padding: 30px;
+    padding: 30px 0px 0px 30px;
     font-size: 35px;
 }
 
@@ -336,6 +345,20 @@ section {
     color: #F9DB7B;
     white-space: nowrap;
     animation: scroll 20s infinite linear;
+}
+
+.scr__text__clone_anim {
+    animation: scroll-left 20s infinite linear;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
 }
 
 @keyframes scroll {
@@ -504,12 +527,6 @@ section {
     height: 626px;
 }
 
-.Ellipse {
-    width: 369px;
-    height: 369px;
-    position: absolute;
-}
-
 .found-text > h2 {
     margin: 60px 0px 90px 40px;
     z-index: 20;
@@ -676,7 +693,7 @@ input[type="submit"]:active {
  }
  
  .img2Search {
-     margin-top: 70%;
+    margin-top: 70%;
     margin-left: 300%;
  
  }
@@ -711,7 +728,7 @@ input[type="submit"]:active {
 
 .contact-left ul li {
     margin: 30px 0px 30px 0px;
-        list-style-type: none;
+    list-style-type: none;
 }
 
 .contact-left {
@@ -758,9 +775,9 @@ input[type="submit"]:active {
 }
 
 #map > div {
-    margin-top: 240px;
+    margin-top: 200px;
     margin-right: 80px;
-    border: 1px solid #FFB10B;
+    border: 2px solid #FFB10B;
     border-radius: 30px;
 }
 
@@ -852,4 +869,13 @@ footer {
 
 .contact-icons li {
     display: inline-block;
+}
+
+.Ellipse {
+    clip-path: ellipse(4rem 20% at left top);
+    background-color: #FFB820;
+    width: 369px;
+    height: 369px;
+    position: absolute;
+    filter: blur(100px);
 }
