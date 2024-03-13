@@ -742,7 +742,7 @@ footer {
 }
 
 .footer-logo {
-    padding: 59px 0px 0px 49px;
+    padding: 0px 0px 0px 49px;
     width: 217px;
     height: 66px;
 }
@@ -765,18 +765,43 @@ footer {
 }
 
 .column {
+    display: inline-block;
     color: #FFF;
     font-size: 18px;
+    height: 82px;
+    width: 120px;
 }
 
 .navigation-menu > nav ul li{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     list-style-type: none;
     color: #FFF;
 }
 
 .navigation-contact {
+    display: block;
+    margin-right: 44px;
+}
 
+.contact-details {
+    color: #FFF;
+}
+
+.contact-details ul {
+    padding: 0;
+    list-style: none;
+}
+
+.contact-details li {
+    margin-bottom: 5px;
+}
+
+.contact-icons {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-icons li {
+    display: inline-block;
 }
