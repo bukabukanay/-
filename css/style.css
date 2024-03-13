@@ -18,7 +18,7 @@
 body {
     font-family: 'Comfortaa', sans-serif;
     overflow-x: hidden;
-    background-color: rgb(237, 237, 237);
+    background-color: #FBF7F4;
 }
 
 header {
@@ -27,9 +27,10 @@ header {
 }
 
 .wrapper {
-    background-color: #FFF;
+    background-color: #FBF7F4;
     width: 100%;
     margin: 0 auto;
+    box-shadow: 0px 0px 20px #d4ccc2;
     position: fixed;
 }
 
@@ -118,7 +119,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    height: 100%;
+    height: 100vh;
 
 }
 
@@ -248,7 +249,7 @@ section {
 .text {
     color: #424040;
     width: 739px;
-    margin: 119px 0px 0px 230px;
+    margin: 20px 0px 0px 230px;
 }
 
 .icons-social {
@@ -282,12 +283,9 @@ section {
 }
 
 .content {
+    margin-top: -140px;
     display: flex;
     align-items: center;
-}
-
-.dogs {
-    margin-top: -130px;
 }
 
 .about-container {
@@ -392,6 +390,7 @@ section {
     align-items: center;
     width: 353px;
     height: 482px;
+    transition: 0.5s ease-in-out;
 }
 
 .dog-dasha {
@@ -460,6 +459,7 @@ section {
 .card__desc {
     background-color: #FFB10B;
     width: 275px;
+    height: 220px;
     font-weight: 500;
     color: white;
     border-radius: 25px;
