@@ -739,12 +739,12 @@ input[type="submit"]:active {
 
     20%,
     80% {
-        transform: translateY(-10px) rotateZ(-5deg);
+        transform: translateY(-70px) rotateZ(-5deg);
     }
 
     40%,
     60% {
-        transform: translateY(10px) rotateZ(5deg);
+        transform: translateY(-10px) rotateZ(-5deg);
     }
 }
 
