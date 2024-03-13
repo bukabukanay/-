@@ -148,5 +148,31 @@
         margin: 0 auto;
     }
 
+    .mainSearchFoto {
+        display: none;
+      }
+    
+      .mainSearchText {
+        margin: 0 auto;
+        align-items: center;
+      }
+    
+      .hSearch {
+        font-weight: bold;
+        padding-top: 20%;
+    }
+    
+    .pSearch {
+        font-size: 50px; 
+    }
+    
+    .imgSearch {
+          max-width: 50%;
+    }
+    
+    .h22Search {
+      margin-left: 20%;
+    }
+    
 
 }
